@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Registro</title>
+</head>
+<body>
+
+<form>
+    <fieldset>
+        <legend><strong>Datos Personales</strong></legend>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required><br>
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" required><br>
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono"><br>
+    </fieldset>
+
+    <fieldset>
+        <legend><strong>Género</strong></legend>
+        <label><input type="radio" name="genero" value="masculino"> Masculino</label><br>
+        <label><input type="radio" name="genero" value="femenino"> Femenino</label><br>
+        <label><input type="radio" name="genero" value="otro"> Otro</label><br>
+    </fieldset>
+
+    <fieldset>
+        <legend><strong>Preferencias</strong></legend>
+        <label><input type="checkbox" name="preferencias" value="musica"> Música</label><br>
+        <label><input type="checkbox" name="preferencias" value="deportes"> Deportes</label><br>
+        <label><input type="checkbox" name="preferencias" value="lecturas"> Lecturas</label><br>
+    </fieldset>
+
+    <fieldset>
+        <legend><strong>Comentarios</strong></legend>
+        <textarea id="comentarios" name="comentarios" rows="4"></textarea><br>
+    </fieldset>
+
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Reiniciar">
+</form>
+
+</body>
+</html>
+
+
